@@ -1,0 +1,3 @@
+0 Shirts
+1 Pants
+2 Shoes
