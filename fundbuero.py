@@ -21,7 +21,7 @@ uploaded_file = st.file_uploader("Lade ein Foto des Fundstücks hoch...", type=[
 if uploaded_file is not None:
     # Bild vorbereiten
     image = Image.open(uploaded_file).convert("RGB")
-    st.image(image, caption='Dein Foto', use_container_width=True)
+    st.image(image, caption='Dein Foto', use_column_width=True)
     
     # Vorverarbeitung (Preprocessing)
     size = (224, 224)
