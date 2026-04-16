@@ -1,3 +1,0 @@
-0 shirts
-1 pants
-2 shoes
